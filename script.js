@@ -1,0 +1,1 @@
+const modal=document.getElementById('modal'),imgs=document.querySelectorAll('.thumb'),modalImg=document.getElementById('modal-img'),close=document.getElementById('close');imgs.forEach(img=>{img.onclick=()=>{modalImg.src=img.src;modal.classList.add('show')}});close.onclick=()=>modal.classList.remove('show')

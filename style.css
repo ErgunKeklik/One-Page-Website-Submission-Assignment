@@ -1,0 +1,1 @@
+.gallery{display:flex;gap:10px}.thumb{width:200px;cursor:pointer}.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:#000000d0;align-items:center;justify-content:center}.modal img{max-width:90%}.modal.show{display:flex}#close{position:absolute;top:20px;right:30px;color:white;font-size:40px;cursor:pointer}
